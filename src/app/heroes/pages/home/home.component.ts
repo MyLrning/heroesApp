@@ -4,6 +4,18 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styles: [
+    `
+      mat-sidenav {
+        width: 200px;
+      }
+      .container {
+        margin: 10px;
+      }
+
+      .spacer {
+        flex: 1 1 auto;
+      }
+    `
   ]
 })
 export class HomeComponent implements OnInit {
